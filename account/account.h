@@ -4,7 +4,6 @@ class Account {
   public:
     static int Bank_Total;
     static BankAccount* accounts;
-    BankAccount(void);
     void go(int, const char**);
     void checkResult(int);
     static void Service(int, int);
