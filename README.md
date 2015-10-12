@@ -1,2 +1,2 @@
-# racey-c-programs
-pthread C programs exhibiting race conditions
+# racy-c-programs
+Multithreaded C/C++ programs exhibiting race conditions
