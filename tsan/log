@@ -1,0 +1,44 @@
+<locId:1;fn:__libc_start_main;file:/tmp/buildd/glibc-2.19/csu/libc-start.c;line:287>
+<gid:0;tid:1;id:1;addr:0;value:0;type:INVOKE_METHOD>
+<locId:2;fn:main;file:<null>;line:0>
+<gid:1;tid:1;id:2;addr:0;value:0;type:INVOKE_METHOD>
+<locId:3;fn:barrier_init(pthread_barrier_t*, unsigned int);file:<null>;line:0>
+<varId:2;desc:global 'barrier_wait' of size 8 at 0x00000151fc30 (a.out+0x00000151fc30)>
+<gid:2;tid:1;id:3;addr:4294967294;value:0;type:READ>
+<locId:4;fn:barrier_init(pthread_barrier_t*, unsigned int);file:<null>;line:0>
+<gid:3;tid:1;id:4;addr:4294967294;value:139768059895040;type:WRITE>
+<gid:4;tid:1;id:2;addr:0;value:0;type:FINISH_METHOD>
+<locId:5;fn:main;file:<null>;line:0>
+<varId:4;desc:global 'fd' of size 4 at 0x00000151fc58 (a.out+0x00000151fc58)>
+<gid:5;tid:1;id:5;addr:4294967292;value:4;type:WRITE>
+<locId:6;fn:main;file:<null>;line:0>
+<gid:6;tid:1;id:6;addr:0;value:2;type:START>
+<locId:7;fn:__tsan_thread_start_func;file:/home/ericpts/Projects/RV/rv-predict-llvm/projects/rv-predict-compiler-rt/lib/tsan/rtl/tsan_interceptors.cc;line:849>
+<locId:8;fn:main;file:<null>;line:0>
+<gid:8;tid:1;id:8;addr:0;value:3;type:START>
+<gid:7;tid:2;id:7;addr:0;value:0;type:INVOKE_METHOD>
+<locId:9;fn:main;file:<null>;line:0>
+<gid:9;tid:3;id:7;addr:0;value:0;type:INVOKE_METHOD>
+<locId:10;fn:Thread1(void*);file:<null>;line:0>
+<gid:11;tid:2;id:10;addr:4294967294;value:139768059895040;type:READ>
+<gid:10;tid:1;id:9;addr:9;value:139768012732160;type:READ>
+<locId:11;fn:Thread2(void*);file:<null>;line:0>
+<gid:12;tid:3;id:11;addr:4294967292;value:4;type:READ>
+<locId:12;fn:Thread2(void*);file:<null>;line:0>
+<gid:13;tid:3;id:12;addr:4294967294;value:139768059895040;type:READ>
+<gid:14;tid:3;id:7;addr:0;value:0;type:FINISH_METHOD>
+<locId:13;fn:Thread1(void*);file:<null>;line:0>
+<gid:15;tid:2;id:13;addr:4294967292;value:4;type:READ>
+<gid:16;tid:2;id:7;addr:0;value:0;type:FINISH_METHOD>
+<locId:14;fn:main;file:<null>;line:0>
+<gid:17;tid:1;id:14;addr:0;value:2;type:JOIN>
+<locId:15;fn:main;file:<null>;line:0>
+<gid:18;tid:1;id:15;addr:13;value:139768004339456;type:READ>
+<locId:16;fn:main;file:<null>;line:0>
+<gid:19;tid:1;id:16;addr:0;value:3;type:JOIN>
+<locId:17;fn:main;file:<null>;line:0>
+<gid:20;tid:1;id:17;addr:4294967292;value:4;type:READ>
+<locId:18;fn:main;file:<null>;line:0>
+<varId:15;desc:global 'stderr@@GLIBC_2.2.5' of size 8 at 0x0000006c5280 (a.out+0x0000006c5280)>
+<gid:21;tid:1;id:18;addr:4294967281;value:139768053391456;type:READ>
+<gid:22;tid:1;id:1;addr:0;value:0;type:FINISH_METHOD>

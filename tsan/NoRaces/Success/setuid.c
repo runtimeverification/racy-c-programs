@@ -22,5 +22,3 @@ int main() {
   fprintf(stderr, "DONE\n");
   return 0;
 }
-
-// CHECK: DONE

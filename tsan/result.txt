@@ -1,0 +1,15 @@
+Data race on global 'GLOB' of size 4 at 0x000001522608 (a.out+0x000001522608): {{{
+    Concurrent write in thread T2 (locks held: {ReadLock@4})
+ ---->  at <fn:Thread1(void*);file:<null>;line:0>
+        - locked ReadLock@4 at <fn:Thread1(void*);file:<null>;line:0> 
+        at <fn:__tsan_thread_start_func;file:tsan_interceptors.cc;line:839>
+    T2 is created by T1
+        at <fn:main;file:<null>;line:0>
+
+    Concurrent read in thread T1 (locks held: {ReadLock@4})
+ ---->  at <fn:main;file:<null>;line:0>
+        - locked ReadLock@4 at <fn:main;file:<null>;line:0> 
+        at <fn:__libc_start_main;file:libc-start.c;line:287>
+    T1 is the main thread
+}}}
+
