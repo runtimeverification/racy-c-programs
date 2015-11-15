@@ -1,3 +1,5 @@
+// Copyright (c) 2015 Runtime Verification Inc. (RV-Predict Team). All Rights Reserved.
+
 #include "account.h"
 #include <pthread.h>
 #include <stdlib.h>

@@ -1,3 +1,5 @@
+// Copyright (c) 2015 Runtime Verification Inc. (RV-Predict Team). All Rights Reserved.
+
 #ifndef ACCOUNT
 #define ACCOUNT
 #include "bank_account.h"

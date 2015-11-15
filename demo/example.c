@@ -1,3 +1,5 @@
+// Copyright (c) 2015 Runtime Verification Inc. (RV-Predict Team). All Rights Reserved.
+
 #include <pthread.h>
 #include <stdio.h>
 pthread_mutex_t lock;

@@ -1,3 +1,5 @@
+// Copyright (c) 2015 Runtime Verification Inc. (RV-Predict Team). All Rights Reserved.
+
 #ifndef BANK_ACCOUNT
 #define BANK_ACCOUNT
 #include <pthread.h>
