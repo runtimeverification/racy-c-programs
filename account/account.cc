@@ -8,7 +8,7 @@
 #include<vector>
 using namespace std;
 
-int Account::Bank_Total = 0;
+int Account::Bank_Total;
 vector<BankAccount*> Account::accounts;
 
 void Account::go(int argc, const char** argv) {

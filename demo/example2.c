@@ -4,10 +4,9 @@
 #include <stdio.h>
 #include <time.h>
 pthread_mutex_t lock;
-int x = 0;
+int x;
 
 void *MyThread(void* v) {
-  nanosleep((struct timespec[]){{0, 10000}}, NULL);
   pthread_mutex_lock(&lock);
   x++;
   pthread_mutex_unlock(&lock);
